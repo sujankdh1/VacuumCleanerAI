@@ -1,6 +1,6 @@
 # CS 557 - AI Homework 1: Vacuum-Cleaner Agent Simulation
 
-This project is an implementation of a simple reflex vacuum-cleaner agent for **CS 557 (Artificial Intelligence) at Boise State University**. The simulation tests the agent's performance under two different measures against two distinct environmental scenarios (percept sequences), as specified in Problem 2 of the assignment.
+This project is an implementation of a simple vacuum-cleaner agent for **CS 557 (Artificial Intelligence)**. The simulation tests the agent's performance under two different measures against two distinct environmental scenarios (percept sequences), as specified in Problem 2 of the assignment.
 
 ---
 
@@ -48,3 +48,12 @@ To compile and run this project, you will need a **Java Development Kit (JDK)** 
 Running the program will print the full simulation logs for all four runs directly to the console. The output will begin with "Run 1" and end after the final score for "Run 4," matching the logs submitted in the PDF solution.
 
 #### Example output snippet:
+```text
+t=1 Percept=[A, Dirty]
+Action=Vacuum StepReward=+1
+Score=+1
+t=2 Percept=[B, Dirty]
+Action=Vacuum StepReward=+1
+Score=+2
+...
+FINAL SCORE: 100
